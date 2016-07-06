@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite1">
+              <span class="suite-name border-passed">Suite1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite1">
+                    <span>D:\Eclipse\SeleniumProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite1">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">36 methods,   36 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods passed suite-Suite1"> (hide)</a> <!-- hide-methods passed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods passed suite-Suite1"> (show)</a> <!-- show-methods passed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.Tests" hash-for-method="CreateAccount">CreateAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.Tests" hash-for-method="CreateAccountError">CreateAccountError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestHardware" hash-for-method="HardwarePagelink1">HardwarePagelink1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestHardware" hash-for-method="HardwarePagelink2">HardwarePagelink2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestHardware" hash-for-method="HardwarePagelink3">HardwarePagelink3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestHardware" hash-for-method="HardwarePagelink4">HardwarePagelink4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestHardware" hash-for-method="HardwarePagelink5">HardwarePagelink5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestHardware" hash-for-method="HardwarePagelink6">HardwarePagelink6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestHardware" hash-for-method="HardwarePagelink7">HardwarePagelink7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestHardware" hash-for-method="HardwarePagelink8">HardwarePagelink8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestSoftware" hash-for-method="SoftwarePageLink1">SoftwarePageLink1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestSoftware" hash-for-method="SoftwarePageLink2">SoftwarePageLink2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestSoftware" hash-for-method="SoftwarePageLink3">SoftwarePageLink3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.Tests" hash-for-method="addressError">addressError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.Tests" hash-for-method="cityError">cityError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.Tests" hash-for-method="confirmError">confirmError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.Tests" hash-for-method="dobError">dobError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.Tests" hash-for-method="emailError">emailError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.Tests" hash-for-method="firstnameError">firstnameError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.Tests" hash-for-method="genderError">genderError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestHomepage" hash-for-method="homepagelink1">homepagelink1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestHomepage" hash-for-method="homepagelink2">homepagelink2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestHomepage" hash-for-method="homepagelink3">homepagelink3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestHomepage" hash-for-method="homepagelink4">homepagelink4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestHomepage" hash-for-method="homepagelink5">homepagelink5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestHomepage" hash-for-method="homepagelink6">homepagelink6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestHomepage" hash-for-method="homepagelink7">homepagelink7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestHomepage" hash-for-method="homepagelink8">homepagelink8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestHomepage" hash-for-method="homepagelink9">homepagelink9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.Tests" hash-for-method="lastnameError">lastnameError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestLogIn" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.Tests" hash-for-method="passwordError">passwordError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.Tests" hash-for-method="phoneError">phoneError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.Tests" hash-for-method="postError">postError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.Tests" hash-for-method="stateError">stateError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.tests.TestLogIn" hash-for-method="wrongLogin">wrongLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite1" class="panel Suite1">
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tests.TestHomepage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homepagelink1">
+                  </a> <!-- homepagelink1 -->
+                  <span class="method-name">homepagelink1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homepagelink2">
+                  </a> <!-- homepagelink2 -->
+                  <span class="method-name">homepagelink2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homepagelink3">
+                  </a> <!-- homepagelink3 -->
+                  <span class="method-name">homepagelink3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homepagelink4">
+                  </a> <!-- homepagelink4 -->
+                  <span class="method-name">homepagelink4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homepagelink5">
+                  </a> <!-- homepagelink5 -->
+                  <span class="method-name">homepagelink5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homepagelink6">
+                  </a> <!-- homepagelink6 -->
+                  <span class="method-name">homepagelink6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homepagelink7">
+                  </a> <!-- homepagelink7 -->
+                  <span class="method-name">homepagelink7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homepagelink8">
+                  </a> <!-- homepagelink8 -->
+                  <span class="method-name">homepagelink8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homepagelink9">
+                  </a> <!-- homepagelink9 -->
+                  <span class="method-name">homepagelink9</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tests.TestSoftware</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SoftwarePageLink1">
+                  </a> <!-- SoftwarePageLink1 -->
+                  <span class="method-name">SoftwarePageLink1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SoftwarePageLink2">
+                  </a> <!-- SoftwarePageLink2 -->
+                  <span class="method-name">SoftwarePageLink2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SoftwarePageLink3">
+                  </a> <!-- SoftwarePageLink3 -->
+                  <span class="method-name">SoftwarePageLink3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tests.Tests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateAccount">
+                  </a> <!-- CreateAccount -->
+                  <span class="method-name">CreateAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateAccountError">
+                  </a> <!-- CreateAccountError -->
+                  <span class="method-name">CreateAccountError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addressError">
+                  </a> <!-- addressError -->
+                  <span class="method-name">addressError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cityError">
+                  </a> <!-- cityError -->
+                  <span class="method-name">cityError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmError">
+                  </a> <!-- confirmError -->
+                  <span class="method-name">confirmError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dobError">
+                  </a> <!-- dobError -->
+                  <span class="method-name">dobError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emailError">
+                  </a> <!-- emailError -->
+                  <span class="method-name">emailError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstnameError">
+                  </a> <!-- firstnameError -->
+                  <span class="method-name">firstnameError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="genderError">
+                  </a> <!-- genderError -->
+                  <span class="method-name">genderError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lastnameError">
+                  </a> <!-- lastnameError -->
+                  <span class="method-name">lastnameError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordError">
+                  </a> <!-- passwordError -->
+                  <span class="method-name">passwordError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="phoneError">
+                  </a> <!-- phoneError -->
+                  <span class="method-name">phoneError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postError">
+                  </a> <!-- postError -->
+                  <span class="method-name">postError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="stateError">
+                  </a> <!-- stateError -->
+                  <span class="method-name">stateError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tests.TestHardware</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HardwarePagelink1">
+                  </a> <!-- HardwarePagelink1 -->
+                  <span class="method-name">HardwarePagelink1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HardwarePagelink2">
+                  </a> <!-- HardwarePagelink2 -->
+                  <span class="method-name">HardwarePagelink2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HardwarePagelink3">
+                  </a> <!-- HardwarePagelink3 -->
+                  <span class="method-name">HardwarePagelink3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HardwarePagelink4">
+                  </a> <!-- HardwarePagelink4 -->
+                  <span class="method-name">HardwarePagelink4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HardwarePagelink5">
+                  </a> <!-- HardwarePagelink5 -->
+                  <span class="method-name">HardwarePagelink5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HardwarePagelink6">
+                  </a> <!-- HardwarePagelink6 -->
+                  <span class="method-name">HardwarePagelink6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HardwarePagelink7">
+                  </a> <!-- HardwarePagelink7 -->
+                  <span class="method-name">HardwarePagelink7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HardwarePagelink8">
+                  </a> <!-- HardwarePagelink8 -->
+                  <span class="method-name">HardwarePagelink8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tests.TestLogIn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="wrongLogin">
+                  </a> <!-- wrongLogin -->
+                  <span class="method-name">wrongLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+        </div> <!-- panel Suite1 -->
+        <div panel-name="test-xml-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Eclipse\SeleniumProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite1&quot;&gt;
+  &lt;test name=&quot;Regression1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tests.Tests&quot;/&gt;
+      &lt;class name=&quot;com.tests.TestLogIn&quot;/&gt;
+      &lt;class name=&quot;com.tests.TestSoftware&quot;/&gt;
+      &lt;class name=&quot;com.tests.TestHomepage&quot;/&gt;
+      &lt;class name=&quot;com.tests.TestHardware&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression1 --&gt;
+&lt;/suite&gt; &lt;!-- Suite1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression1 (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite1');
+function tableData_Suite1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(36);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'CreateAccount')
+data.setCell(0, 2, 'com.tests.Tests')
+data.setCell(0, 3, 14510);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'dobError')
+data.setCell(1, 2, 'com.tests.Tests')
+data.setCell(1, 3, 14127);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'emailError')
+data.setCell(2, 2, 'com.tests.Tests')
+data.setCell(2, 3, 11945);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'lastnameError')
+data.setCell(3, 2, 'com.tests.Tests')
+data.setCell(3, 3, 11836);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'phoneError')
+data.setCell(4, 2, 'com.tests.Tests')
+data.setCell(4, 3, 11500);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'postError')
+data.setCell(5, 2, 'com.tests.Tests')
+data.setCell(5, 3, 11157);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'confirmError')
+data.setCell(6, 2, 'com.tests.Tests')
+data.setCell(6, 3, 9196);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'firstnameError')
+data.setCell(7, 2, 'com.tests.Tests')
+data.setCell(7, 3, 8734);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'passwordError')
+data.setCell(8, 2, 'com.tests.Tests')
+data.setCell(8, 3, 6485);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'addressError')
+data.setCell(9, 2, 'com.tests.Tests')
+data.setCell(9, 3, 5791);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'cityError')
+data.setCell(10, 2, 'com.tests.Tests')
+data.setCell(10, 3, 5517);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'stateError')
+data.setCell(11, 2, 'com.tests.Tests')
+data.setCell(11, 3, 5004);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'genderError')
+data.setCell(12, 2, 'com.tests.Tests')
+data.setCell(12, 3, 4720);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'login')
+data.setCell(13, 2, 'com.tests.TestLogIn')
+data.setCell(13, 3, 3439);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'wrongLogin')
+data.setCell(14, 2, 'com.tests.TestLogIn')
+data.setCell(14, 3, 2742);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'homepagelink2')
+data.setCell(15, 2, 'com.tests.TestHomepage')
+data.setCell(15, 3, 1624);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'homepagelink3')
+data.setCell(16, 2, 'com.tests.TestHomepage')
+data.setCell(16, 3, 1621);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'homepagelink1')
+data.setCell(17, 2, 'com.tests.TestHomepage')
+data.setCell(17, 3, 1596);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'homepagelink6')
+data.setCell(18, 2, 'com.tests.TestHomepage')
+data.setCell(18, 3, 1568);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'homepagelink5')
+data.setCell(19, 2, 'com.tests.TestHomepage')
+data.setCell(19, 3, 1524);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'homepagelink8')
+data.setCell(20, 2, 'com.tests.TestHomepage')
+data.setCell(20, 3, 1508);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'homepagelink7')
+data.setCell(21, 2, 'com.tests.TestHomepage')
+data.setCell(21, 3, 1508);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'homepagelink9')
+data.setCell(22, 2, 'com.tests.TestHomepage')
+data.setCell(22, 3, 1472);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'homepagelink4')
+data.setCell(23, 2, 'com.tests.TestHomepage')
+data.setCell(23, 3, 1429);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'SoftwarePageLink1')
+data.setCell(24, 2, 'com.tests.TestSoftware')
+data.setCell(24, 3, 1078);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'HardwarePagelink1')
+data.setCell(25, 2, 'com.tests.TestHardware')
+data.setCell(25, 3, 987);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'HardwarePagelink2')
+data.setCell(26, 2, 'com.tests.TestHardware')
+data.setCell(26, 3, 929);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'SoftwarePageLink2')
+data.setCell(27, 2, 'com.tests.TestSoftware')
+data.setCell(27, 3, 924);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'HardwarePagelink5')
+data.setCell(28, 2, 'com.tests.TestHardware')
+data.setCell(28, 3, 911);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'SoftwarePageLink3')
+data.setCell(29, 2, 'com.tests.TestSoftware')
+data.setCell(29, 3, 899);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'HardwarePagelink8')
+data.setCell(30, 2, 'com.tests.TestHardware')
+data.setCell(30, 3, 898);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'HardwarePagelink6')
+data.setCell(31, 2, 'com.tests.TestHardware')
+data.setCell(31, 3, 874);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'HardwarePagelink7')
+data.setCell(32, 2, 'com.tests.TestHardware')
+data.setCell(32, 3, 865);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'HardwarePagelink3')
+data.setCell(33, 2, 'com.tests.TestHardware')
+data.setCell(33, 3, 862);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'HardwarePagelink4')
+data.setCell(34, 2, 'com.tests.TestHardware')
+data.setCell(34, 3, 790);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'CreateAccountError')
+data.setCell(35, 2, 'com.tests.Tests')
+data.setCell(35, 3, 588);
+window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite1">
+              </div> <!-- times-div-Suite1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tests.Tests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CreateAccount</span>
+                <span class="method-start">5622 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20134 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">20970 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CreateAccountError</span>
+                <span class="method-start">26070 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26659 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27424 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addressError</span>
+                <span class="method-start">32324 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38116 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">38871 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cityError</span>
+                <span class="method-start">44004 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49522 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">50270 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">confirmError</span>
+                <span class="method-start">55342 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64539 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">65302 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dobError</span>
+                <span class="method-start">70217 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">84345 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">85100 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emailError</span>
+                <span class="method-start">90051 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">101997 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">102755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">firstnameError</span>
+                <span class="method-start">107927 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">116662 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">117421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">genderError</span>
+                <span class="method-start">122504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">127225 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">127996 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">lastnameError</span>
+                <span class="method-start">132999 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">144836 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">145591 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">passwordError</span>
+                <span class="method-start">150656 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">157142 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">157898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">phoneError</span>
+                <span class="method-start">162866 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">174367 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">175129 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">postError</span>
+                <span class="method-start">179940 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">191097 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">191861 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">stateError</span>
+                <span class="method-start">197052 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">202057 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tests.TestLogIn</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">202825 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">207862 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">211301 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">212069 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">wrongLogin</span>
+                <span class="method-start">217174 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">219917 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tests.TestSoftware</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">220683 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SoftwarePageLink1</span>
+                <span class="method-start">225532 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">226611 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">227382 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SoftwarePageLink2</span>
+                <span class="method-start">232384 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">233309 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">234080 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SoftwarePageLink3</span>
+                <span class="method-start">239037 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">239937 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tests.TestHomepage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">240707 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homepagelink1</span>
+                <span class="method-start">244629 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">246226 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">246973 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homepagelink2</span>
+                <span class="method-start">250903 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">252527 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">253276 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homepagelink3</span>
+                <span class="method-start">257200 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">258821 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">259584 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homepagelink4</span>
+                <span class="method-start">263612 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">265041 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">265807 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homepagelink5</span>
+                <span class="method-start">269826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">271350 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">272145 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homepagelink6</span>
+                <span class="method-start">276135 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">277703 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">278464 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homepagelink7</span>
+                <span class="method-start">282378 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">283887 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">284640 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homepagelink8</span>
+                <span class="method-start">288623 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">290131 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">290875 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homepagelink9</span>
+                <span class="method-start">294783 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">296255 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tests.TestHardware</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">297004 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HardwarePagelink1</span>
+                <span class="method-start">301797 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">302784 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">303555 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HardwarePagelink2</span>
+                <span class="method-start">308502 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">309432 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">310185 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HardwarePagelink3</span>
+                <span class="method-start">315112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">315975 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">316743 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HardwarePagelink4</span>
+                <span class="method-start">321760 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">322551 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">323311 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HardwarePagelink5</span>
+                <span class="method-start">328075 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">328986 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">329750 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HardwarePagelink6</span>
+                <span class="method-start">334850 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">335724 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">336480 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HardwarePagelink7</span>
+                <span class="method-start">341404 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">342270 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">343027 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HardwarePagelink8</span>
+                <span class="method-start">348113 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">349012 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

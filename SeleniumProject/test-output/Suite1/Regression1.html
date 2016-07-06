@@ -1,0 +1,259 @@
+<html>
+<head>
+<title>TestNG:  Regression1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>36/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 05 17:28:54 PDT 2016</td>
+</tr>
+<tr><td>Total time:</td><td>349 seconds (349774 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.tests.Tests.CreateAccount()'><b>CreateAccount</b><br>Test class: com.tests.Tests</td>
+<td></td>
+<td>14</td>
+<td>com.tests.Tests@6d00a15d</td></tr>
+<tr>
+<td title='com.tests.Tests.CreateAccountError()'><b>CreateAccountError</b><br>Test class: com.tests.Tests</td>
+<td></td>
+<td>0</td>
+<td>com.tests.Tests@6d00a15d</td></tr>
+<tr>
+<td title='com.tests.TestHardware.HardwarePagelink1()'><b>HardwarePagelink1</b><br>Test class: com.tests.TestHardware</td>
+<td></td>
+<td>0</td>
+<td>com.tests.TestHardware@51081592</td></tr>
+<tr>
+<td title='com.tests.TestHardware.HardwarePagelink2()'><b>HardwarePagelink2</b><br>Test class: com.tests.TestHardware</td>
+<td></td>
+<td>0</td>
+<td>com.tests.TestHardware@51081592</td></tr>
+<tr>
+<td title='com.tests.TestHardware.HardwarePagelink3()'><b>HardwarePagelink3</b><br>Test class: com.tests.TestHardware</td>
+<td></td>
+<td>0</td>
+<td>com.tests.TestHardware@51081592</td></tr>
+<tr>
+<td title='com.tests.TestHardware.HardwarePagelink4()'><b>HardwarePagelink4</b><br>Test class: com.tests.TestHardware</td>
+<td></td>
+<td>0</td>
+<td>com.tests.TestHardware@51081592</td></tr>
+<tr>
+<td title='com.tests.TestHardware.HardwarePagelink5()'><b>HardwarePagelink5</b><br>Test class: com.tests.TestHardware</td>
+<td></td>
+<td>0</td>
+<td>com.tests.TestHardware@51081592</td></tr>
+<tr>
+<td title='com.tests.TestHardware.HardwarePagelink6()'><b>HardwarePagelink6</b><br>Test class: com.tests.TestHardware</td>
+<td></td>
+<td>0</td>
+<td>com.tests.TestHardware@51081592</td></tr>
+<tr>
+<td title='com.tests.TestHardware.HardwarePagelink7()'><b>HardwarePagelink7</b><br>Test class: com.tests.TestHardware</td>
+<td></td>
+<td>0</td>
+<td>com.tests.TestHardware@51081592</td></tr>
+<tr>
+<td title='com.tests.TestHardware.HardwarePagelink8()'><b>HardwarePagelink8</b><br>Test class: com.tests.TestHardware</td>
+<td></td>
+<td>0</td>
+<td>com.tests.TestHardware@51081592</td></tr>
+<tr>
+<td title='com.tests.TestSoftware.SoftwarePageLink1()'><b>SoftwarePageLink1</b><br>Test class: com.tests.TestSoftware</td>
+<td></td>
+<td>1</td>
+<td>com.tests.TestSoftware@5034c75a</td></tr>
+<tr>
+<td title='com.tests.TestSoftware.SoftwarePageLink2()'><b>SoftwarePageLink2</b><br>Test class: com.tests.TestSoftware</td>
+<td></td>
+<td>0</td>
+<td>com.tests.TestSoftware@5034c75a</td></tr>
+<tr>
+<td title='com.tests.TestSoftware.SoftwarePageLink3()'><b>SoftwarePageLink3</b><br>Test class: com.tests.TestSoftware</td>
+<td></td>
+<td>0</td>
+<td>com.tests.TestSoftware@5034c75a</td></tr>
+<tr>
+<td title='com.tests.Tests.addressError()'><b>addressError</b><br>Test class: com.tests.Tests</td>
+<td></td>
+<td>5</td>
+<td>com.tests.Tests@6d00a15d</td></tr>
+<tr>
+<td title='com.tests.Tests.cityError()'><b>cityError</b><br>Test class: com.tests.Tests</td>
+<td></td>
+<td>5</td>
+<td>com.tests.Tests@6d00a15d</td></tr>
+<tr>
+<td title='com.tests.Tests.confirmError()'><b>confirmError</b><br>Test class: com.tests.Tests</td>
+<td></td>
+<td>9</td>
+<td>com.tests.Tests@6d00a15d</td></tr>
+<tr>
+<td title='com.tests.Tests.dobError()'><b>dobError</b><br>Test class: com.tests.Tests</td>
+<td></td>
+<td>14</td>
+<td>com.tests.Tests@6d00a15d</td></tr>
+<tr>
+<td title='com.tests.Tests.emailError()'><b>emailError</b><br>Test class: com.tests.Tests</td>
+<td></td>
+<td>11</td>
+<td>com.tests.Tests@6d00a15d</td></tr>
+<tr>
+<td title='com.tests.Tests.firstnameError()'><b>firstnameError</b><br>Test class: com.tests.Tests</td>
+<td></td>
+<td>8</td>
+<td>com.tests.Tests@6d00a15d</td></tr>
+<tr>
+<td title='com.tests.Tests.genderError()'><b>genderError</b><br>Test class: com.tests.Tests</td>
+<td></td>
+<td>4</td>
+<td>com.tests.Tests@6d00a15d</td></tr>
+<tr>
+<td title='com.tests.TestHomepage.homepagelink1()'><b>homepagelink1</b><br>Test class: com.tests.TestHomepage</td>
+<td></td>
+<td>1</td>
+<td>com.tests.TestHomepage@396a51ab</td></tr>
+<tr>
+<td title='com.tests.TestHomepage.homepagelink2()'><b>homepagelink2</b><br>Test class: com.tests.TestHomepage</td>
+<td></td>
+<td>1</td>
+<td>com.tests.TestHomepage@396a51ab</td></tr>
+<tr>
+<td title='com.tests.TestHomepage.homepagelink3()'><b>homepagelink3</b><br>Test class: com.tests.TestHomepage</td>
+<td></td>
+<td>1</td>
+<td>com.tests.TestHomepage@396a51ab</td></tr>
+<tr>
+<td title='com.tests.TestHomepage.homepagelink4()'><b>homepagelink4</b><br>Test class: com.tests.TestHomepage</td>
+<td></td>
+<td>1</td>
+<td>com.tests.TestHomepage@396a51ab</td></tr>
+<tr>
+<td title='com.tests.TestHomepage.homepagelink5()'><b>homepagelink5</b><br>Test class: com.tests.TestHomepage</td>
+<td></td>
+<td>1</td>
+<td>com.tests.TestHomepage@396a51ab</td></tr>
+<tr>
+<td title='com.tests.TestHomepage.homepagelink6()'><b>homepagelink6</b><br>Test class: com.tests.TestHomepage</td>
+<td></td>
+<td>1</td>
+<td>com.tests.TestHomepage@396a51ab</td></tr>
+<tr>
+<td title='com.tests.TestHomepage.homepagelink7()'><b>homepagelink7</b><br>Test class: com.tests.TestHomepage</td>
+<td></td>
+<td>1</td>
+<td>com.tests.TestHomepage@396a51ab</td></tr>
+<tr>
+<td title='com.tests.TestHomepage.homepagelink8()'><b>homepagelink8</b><br>Test class: com.tests.TestHomepage</td>
+<td></td>
+<td>1</td>
+<td>com.tests.TestHomepage@396a51ab</td></tr>
+<tr>
+<td title='com.tests.TestHomepage.homepagelink9()'><b>homepagelink9</b><br>Test class: com.tests.TestHomepage</td>
+<td></td>
+<td>1</td>
+<td>com.tests.TestHomepage@396a51ab</td></tr>
+<tr>
+<td title='com.tests.Tests.lastnameError()'><b>lastnameError</b><br>Test class: com.tests.Tests</td>
+<td></td>
+<td>11</td>
+<td>com.tests.Tests@6d00a15d</td></tr>
+<tr>
+<td title='com.tests.TestLogIn.login()'><b>login</b><br>Test class: com.tests.TestLogIn</td>
+<td></td>
+<td>3</td>
+<td>com.tests.TestLogIn@51efea79</td></tr>
+<tr>
+<td title='com.tests.Tests.passwordError()'><b>passwordError</b><br>Test class: com.tests.Tests</td>
+<td></td>
+<td>6</td>
+<td>com.tests.Tests@6d00a15d</td></tr>
+<tr>
+<td title='com.tests.Tests.phoneError()'><b>phoneError</b><br>Test class: com.tests.Tests</td>
+<td></td>
+<td>11</td>
+<td>com.tests.Tests@6d00a15d</td></tr>
+<tr>
+<td title='com.tests.Tests.postError()'><b>postError</b><br>Test class: com.tests.Tests</td>
+<td></td>
+<td>11</td>
+<td>com.tests.Tests@6d00a15d</td></tr>
+<tr>
+<td title='com.tests.Tests.stateError()'><b>stateError</b><br>Test class: com.tests.Tests</td>
+<td></td>
+<td>5</td>
+<td>com.tests.Tests@6d00a15d</td></tr>
+<tr>
+<td title='com.tests.TestLogIn.wrongLogin()'><b>wrongLogin</b><br>Test class: com.tests.TestLogIn</td>
+<td></td>
+<td>2</td>
+<td>com.tests.TestLogIn@51efea79</td></tr>
+</table><p>
+</body>
+</html>

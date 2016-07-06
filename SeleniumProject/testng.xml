@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+ 
+  <test name="Regression1">
+    <classes>
+      <class name="com.tests.Tests"/>
+      <class name="com.tests.TestLogIn"/>
+      <class name="com.tests.TestSoftware"/>
+      <class name="com.tests.TestHomepage"/>
+      <class name="com.tests.TestHardware"/>
+ 
+    </classes>
+  </test>
+  
+</suite>
