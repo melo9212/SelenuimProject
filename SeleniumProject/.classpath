@@ -20,5 +20,12 @@
 	<classpathentry kind="lib" path="llibs/selenium-java-2.53.0.jar"/>
 	<classpathentry kind="lib" path="llibs/selenium-server-standalone-2.53.0.jar"/>
 	<classpathentry kind="lib" path="llibs/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="llibs/log4j-1.2-api-2.6.1.jar"/>
+	<classpathentry kind="lib" path="llibs/log4j-api-2.6.1.jar"/>
+	<classpathentry kind="lib" path="llibs/log4j-core-2.6.1.jar"/>
+	<classpathentry kind="lib" path="llibs/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="llibs/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="llibs/testng-6.8.1.jar"/>
+	<classpathentry kind="lib" path="llibs/velocity-dep-1.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

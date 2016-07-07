@@ -3,7 +3,7 @@ package com.tests;
 import java.io.IOException;
 import java.util.Properties;
 
-//import org.apache.log4j.Logger;
+import org.apache.log4j.Logger;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
@@ -11,8 +11,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.common.CommonMethods;
-//import com.pageobjects.CreateAnAccount;
-//import com.pageobjects.HomePage;
 import com.pageobjects.*;
 
 
@@ -26,7 +24,8 @@ public class Tests {
 	public HardwarePage hardware;
 	public SoftwarePage software;
 	
-//	private Logger logger= Logger.getLogger(HomePage.class);
+	private Logger logger= Logger.getLogger(HomePage.class);
+
 	
 	@BeforeMethod
 	public void setUp() throws InvalidFormatException, IOException{
@@ -41,7 +40,8 @@ public class Tests {
 	
 	@AfterMethod
 	public void tearDown(){
-		cm.closeBrowser();		
+		cm.closeBrowser();	
+		logger.debug("is it working");
 	}
 	
 	
